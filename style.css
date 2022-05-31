@@ -1,0 +1,126 @@
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #1ee667;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #1ea34f;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-filter: drop-shadow(0px 5px 10px #166534);
+          filter: drop-shadow(0px 5px 10px #166534);
+}
+
+header h1 {
+  font-family: "Arvo", serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Arvo", serif;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #1ea34f;
+  font-family: "Arvo", serif;
+  -webkit-filter: drop-shadow(0px -5px 10px #166534);
+          filter: drop-shadow(0px -5px 10px #166534);
+  font-size: 1.2rem;
+}
+
+footer a {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  text-decoration: none;
+  background-color: #166534;
+  color: #1ee667;
+  padding: 5px;
+  padding-left: 0px;
+  border: 1px solid #166534;
+  border-radius: 5px;
+}
+
+footer a strong {
+  background-color: #1ee667;
+  color: #166534;
+  padding: 5px;
+  border: 1px solid #166534;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  background-color: #1ee667;
+  color: #166534;
+  border-color: #1ee667;
+}
+
+footer a:hover strong {
+  background-color: #166534;
+  color: #1ee667;
+  border-color: #166534;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.link {
+  width: 190px;
+  padding: 10px;
+  background-color: #22c55e;
+  border: 1px solid #22c55e;
+  border-radius: 25px;
+  -webkit-filter: drop-shadow(10px 10px 10px black);
+          filter: drop-shadow(10px 10px 10px black);
+  font-family: 'Nunito', sans-serif;
+}
+
+.link h3 {
+  font-family: "Arvo", serif;
+}
+
+.link a {
+  color: black;
+  text-decoration: none;
+}
+
+.link .img-container {
+  height: 200px;
+  position: relative;
+}
+
+.link .img-container img {
+  width: 190px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#last-container {
+  margin-bottom: 100px;
+}

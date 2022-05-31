@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>React Maybe</title>
+    <style>
+        @import url(style.css);
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>An Attempt at learning React</h1>
+    </header>
+    <nav>
+        <a href="../../index.html">Home</a>
+        |
+        <a href="https://reactjs.org/">React</a>
+    </nav>
+    <hr>
+
+    <div id="react-container">
+        <h2>React's example component:</h2>
+        <div id="like_button_container"></div>
+        <h2>Examples from the react docs:</h2>
+        <div id="react-examples"></div>
+    </div>
+    
+    <hr>
+    <footer>
+        <a id="vLink1">
+            <strong>HTML</strong> Valid!
+        </a>
+        <a id="vLink2">
+            <strong>CSS</strong> Valid!
+        </a>
+    </footer>
+    <script>
+        document.getElementById("vLink1").setAttribute("href", `http://validator.w3.org/check?uri=${window.location.href}`);
+        document.getElementById("vLink2").setAttribute("href", `http://jigsaw.w3.org/css-validator/validator?uri=${window.location.href}?profile=css3`);
+    </script>
+
+    <!--react script things-->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="like_button.js"></script>
+    <script src="examples.js" type="text/babel"></script>
+</body>
+
+</html>

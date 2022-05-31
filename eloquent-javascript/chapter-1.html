@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Chapter 1
+        </title>
+        <link rel="stylesheet" href="chapter.css">
+        <script src="https://jakob-ayers.github.io/footer.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Chapter 1
+            </h1>
+            <h2>Values, Types, and Operators</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                 | 
+                <a href="https://eloquentjavascript.net/01_values.html">Book</a>
+                <!--^ Put link to chapter above -->
+            </nav>
+            <hr>
+        </header>
+        <h3>Types</h3>
+        <ul>
+            <li>
+                Number
+                <ul>
+                    <li>
+                        are numbers
+                    </li>
+                    <li>
+                        fractional numbers (floats) are written with a . (ie 3.5)
+                    </li>
+                    <li>
+                        Very big/small numbers are written in scientific form (ie 2.998e8)
+                    </li>
+                    <li>
+                        Since there are only 64 bits to represent each number, math with floats is less precises. 
+                    </li>
+                    <li>
+                        <strong>Special Numbers</strong>
+                        <ul>
+                            <li>
+                                Infinity - its infinity 
+                            </li>
+                            <li>
+                                -Infinity - negative infinity
+                            </li>
+                            <li>
+                                NaN - not a number
+                                <ul>
+                                    <li>
+                                        Despite the name, NaN is a number (by type)
+                                    </li>
+                                    <li>
+                                        NaN is the only js value that is not equal to itself
+                                    </li>
+                                    <li>
+                                        NaN is the result of doing illegal operations, such as Infinity-Infinity, 0/0, or adding a string (that doesn't have numbers) and a number
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                String
+                <ul>
+                    <li>
+                        Characters n stuff
+                    </li>
+                    <li>
+                        strings can be defined with "" '' or `` 
+                    </li>
+                    <li>
+                        \ can be used for escape characters 
+                    </li>
+                    <li>
+                        Encoded with unicode
+                    </li>
+                    <li>
+                        While you cant do math with strings, you <i>can</i> use the + operator to add 2 strings together
+                    </li>
+                    <li>
+                        <strong>Template Literals</strong>
+                        <ul>
+                            <li>
+                                strings defined with backticks (``) are called template literals
+                            </li>
+                            <li>
+                                these strings can span multiple lines
+                            </li>
+                            <li>
+                                things written inside of ${} will be computed (when within a string defined with backticks)
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+
+            <li>
+                Boolean
+                <ul>
+                    <li>
+                        True or False
+                    </li>
+                    <li>
+                        Comparison will result in a boolean value (ie 1 > 2 will return false)
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h3>
+            Operators
+        </h3>
+        <ul>
+            <li>
+                Arithmetic 
+                <ul>
+                    <li>
+                        + - addition 
+                    </li>
+                    <li>
+                        - - subtraction
+                    </li>
+                    <li>
+                        / - division
+                    </li>
+                    <li>
+                        * - multiplication 
+                    </li>
+                    <li>
+                        parentheses can be used to change the order of operations, like in normal math
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Unary Operators
+                <ul>
+                    <li>
+                        Defined with words, not symbols 
+                    </li>
+                    <li>
+                        console.log - prints to console
+                    </li>
+                    <li>
+                        typeof - returns the type of a given value
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Comparison
+                <ul>
+                    <li>
+                        == - equals
+                    </li>
+                    <li>
+                        != - not equal
+                    </li>
+                    <li>
+                        &lt; - greater than
+                    </li>
+                    <li>
+                        > - less than
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Logical Operators
+                <ul>
+                    <li>
+                        && - and (will result in true if both values are true)
+                    </li>
+                    <li>
+                        || - or (produces true if either value is true)
+                    </li>
+                    <li>
+                        ! - not (flips the value given to it)
+                    </li>
+                    <li>
+                        The last value
+                        <ul>
+                            <li>
+                                Ternary, not binary
+                            </li>
+                            <li>
+                                
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <footer>
+            <hr>
+            <a href="index.html">Back</a>
+            <br>
+            <a href="http://validator.w3.org/check?uri=https://jakob-ayers.github.io/website/eloquent-javascript/chapter-1.html">
+            <strong> HTML </strong> Valid! </a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://jakob-ayers.github.io/website/eloquent-javascript/chapter-1.html">
+            <strong> CSS </strong> Valid! </a>
+        </footer>
+    </body>
+</html>

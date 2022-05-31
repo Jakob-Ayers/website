@@ -1,0 +1,17 @@
+body {
+    padding: 2.5vw;
+    padding: 2.5vw;
+
+    border: 1px solid black;
+
+    font-size: 1.5vw;
+}
+
+header h1{
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Jakob's cool website
+    </title>
+    <link rel="stylesheet" href="tailwind-style.css">
+    <link rel="stylesheet" href="tailwind-output.css">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-green-800">
+    <!--content-->
+    <header class="text-center bg-gradient-to-b from-green-800 to-green-500 p-4 font-arvo">
+        <h1>Jakob's Stuff</h1>
+    </header>
+
+
+    <div class="flex flex-row">
+
+
+        <div class="basis-3/4 m4 bg-green-400 p-4">
+            <div class="bg-green-400 p-4">
+                This is an old version of the homepage and will not be up to date. Im keeping it around because i like
+                the css, which was made using tailwind.
+            </div>
+            <div class="p-4">
+                <a href="index.html">Home</a>
+            </div> 
+
+            <h2 class="font-arvo">
+                Links
+            </h2>
+            <ul class="list-disc list-inside ml-2 p-4">
+                <li>
+                    <a href="vscode.html">
+                        VSCode Tutorial
+                    </a>
+                </li>
+                <li>
+                    <a href="CIW/index.html">
+                        CIW
+                    </a>
+                </li>
+                <li>
+                    <a href="eloquent-javascript/index.html">
+                        Eloquent Javascript
+                    </a>
+                </li>
+                <li>
+                    <a href="bf.html">
+                        BF code
+                    </a>
+                </li>
+                <li>
+                    <a href="experiments/index.html">
+                        Holiday Project
+                    </a>
+                </li>
+                <li>
+                    <a href="background_images/index.html">
+                        Background Images
+                    </a>
+                </li>
+            </ul>
+
+            <h2 class="font-arvo">Portfolio</h2>
+            <ul class="list-disc list-inside ml-2 p-4">
+                <li>
+                    <a href="resume/index.html">
+                        Resume
+                    </a>
+                </li>
+            </ul>
+
+            <h2 class="font-arvo">Current Projects</h2>
+            <ul class="list-desc list-inside ml-2 p-4">
+                <li>
+                    <a href="CIW/review/index.html">
+                        Review for CIW test
+                    </a>
+                </li>
+                <li>
+                    <a href="https://horsescary.com/dungeon-game/">
+                        Dungeon Game
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="basis-1/4">
+            <img src="https://c.tenor.com/2go__Sq_LiwAAAAd/horse-plinko.gif"
+                alt="a horse descending a plinko board. There is fire at the bottom of the board. Above the board fiery letters read horse plinko"
+                class="w-full">
+
+        </div>
+    </div>
+
+    <!--content is no more-->
+    <footer class="text-center bg-gradient-to-t from-green-800 to-green-500 p-2">
+
+        <br>
+        <a id="vLink1"
+            class="bg-teal-400 text-teal-50 group hover:bg-teal-50 hover:text-teal-400 rounded p-1 mr-1 no-underline">
+            <strong class="text-teal-400 bg-teal-50 group-hover:text-teal-50 group-hover:bg-teal-400 rounded p-1 ">
+                HTML</strong> Valid! </a>
+        <a href="https://tailwindcss.com/"
+            class="bg-teal-400 text-teal-50 group hover:bg-teal-50 hover:text-teal-400 rounded p-1 mr-1 no-underline">
+            Made with
+            <strong class="text-teal-400 bg-teal-50 group-hover:text-teal-50 group-hover:bg-teal-400 rounded p-1">
+                tailwind
+            </strong>
+        </a>
+    </footer>
+    <script>
+        document.getElementById("vLink1").setAttribute("href", `http://validator.w3.org/check?uri=${window.location.href}`);
+    </script>
+
+
+</body>
+
+</html>

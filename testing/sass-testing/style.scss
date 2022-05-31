@@ -1,0 +1,40 @@
+@mixin red {
+    color: red;
+}
+
+@mixin footBorder($borderColor) {
+    padding: 5px;
+    border: solid 1px $borderColor; 
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    a {
+        @include footBorder(red);
+
+        text-decoration: none;
+        color: green;
+        background-color: red;
+
+        margin-left: 5px;
+        strong {
+            @include red;
+            background-color: green;
+            @include footBorder(red);
+        }
+    } 
+    a:hover {
+        color: red;
+        background-color: green;
+
+        strong {
+            color: green;
+            background-color: red;
+        }
+    }
+}

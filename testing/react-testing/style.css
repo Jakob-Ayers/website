@@ -1,0 +1,45 @@
+header, nav {
+  text-align: center;
+}
+
+#react-container {
+  margin: 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  padding: 5px;
+  border: solid 1px lightseagreen;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+footer a strong {
+  padding: 5px;
+  border: solid 1px #f3f3f3;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  color: lightseagreen;
+}
+
+footer a:hover {
+  padding: 5px;
+  border: solid 1px #f3f3f3;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  color: lightseagreen;
+}
+
+footer a:hover strong {
+  padding: 5px;
+  border: solid 1px lightseagreen;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  color: #f3f3f3;
+}

@@ -1,0 +1,73 @@
+@mixin footerBorder($color) {
+    padding: 5px;
+    border: solid 1px $color;
+    border-radius: 5px;
+    background-color: $color;
+}
+
+body {
+    padding: 40px;
+    margin: 40px;
+
+    border: 1px solid black;
+}
+
+nav {
+    text-align: center;
+    a {
+        color:black;
+    }
+    a:visited{
+        color: black;
+    }
+}
+
+header h1 {
+    text-align: center;
+}
+
+footer {
+    $footerColor1: black;
+    $footerColor2: #e9e9e9;
+
+    text-align: center;
+    a {
+        @include footerBorder($footerColor2);
+        
+        margin-right: 5px;
+        text-decoration: none;
+        color: $footerColor1;
+
+        strong {
+            @include footerBorder($footerColor1);
+            color: $footerColor2;
+        }
+    }
+    a:hover {
+        @include footerBorder($footerColor1);
+        color: $footerColor2;
+        strong {
+            @include footerBorder($footerColor2);
+            color: $footerColor1;
+        }
+    }
+}
+
+#cert {
+    animation-duration: 2s;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    margin: 150px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

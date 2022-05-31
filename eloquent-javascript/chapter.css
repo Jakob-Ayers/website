@@ -1,0 +1,16 @@
+body {
+    padding: 2.5vw;
+    margin: 2.5vw;
+
+    border: solid 1px black;
+
+    font-size: 1.5vw;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+@mixin footerBorder($color) {
+    padding: 5px;
+    border: solid 1px $color;
+    border-radius: 5px;
+    background-color: $color;
+}
+
+header, nav {
+    text-align: center;
+}
+
+#react-container {
+    margin: 40px;
+}
+
+footer {
+    $footerColor1: #f3f3f3;
+    $footerColor2: lightseagreen;
+
+    text-align: center;
+    a {
+        @include footerBorder($footerColor2);
+        
+        margin-right: 5px;
+        text-decoration: none;
+        color: $footerColor1;
+
+        strong {
+            @include footerBorder($footerColor1);
+            color: $footerColor2;
+        }
+    }
+    a:hover {
+        @include footerBorder($footerColor1);
+        color: lightseagreen;
+
+        strong {
+            @include footerBorder($footerColor2);
+            color: $footerColor1;
+        }
+    }
+}

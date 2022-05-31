@@ -1,0 +1,93 @@
+body {
+  padding: 40px;
+  margin: 40px;
+  border: 1px solid black;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:visited {
+  color: black;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  padding: 5px;
+  border: solid 1px #e9e9e9;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+footer a strong {
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color: black;
+  color: #e9e9e9;
+}
+
+footer a:hover {
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color: black;
+  color: #e9e9e9;
+}
+
+footer a:hover strong {
+  padding: 5px;
+  border: solid 1px #e9e9e9;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  color: black;
+}
+
+#cert {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  margin: 150px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

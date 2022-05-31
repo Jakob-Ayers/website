@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ethics</title>
+    <style>
+        @import url(../style.css);
+    </style>
+    <script src="https://jakob-ayers.github.io/footer.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Intro to CSS</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <main>
+        <ul>
+            <li>
+                <strong>Basic Selectors</strong>
+                <ul>
+                    <li>
+                        *: selects all elements
+                    </li>
+                    <li>
+                        Type selector: Selects all elements of a given element name
+                    </li>
+                    <li>
+                        Class selector: Selects all elements of a given class
+                    </li>
+                    <li>
+                        ID selector: Selects an element with a given ID.
+                    </li>
+                    <li>
+                        Attribute Selector: Selects elements based on their attributes
+                    </li>
+                </ul>
+            </li>
+
+            <li>You can group selectors by separating them with commas. </li>
+            <li>
+                <strong>Combinators</strong>
+                <ul>
+                    <li>Decedent Combinator: Whitespace, selects all elements that are a decedent of a given selector.
+                    </li>
+                    <li>Child Combinator: &gt;, selects children of a given selector.</li>
+                    <li>Sibling Combinator: ~, selects elements that have the same parent of a given selector</li>
+                    <li>Adjacent Sibling Combinator: +, selects siblings of a selector that immediately follow a given
+                        selector.</li>
+                    <li>Column Combinator: ||, selects elements that belong to a column, has no browser support why do i
+                        need to know this?</li>
+                </ul>
+            </li>
+
+            <li>
+                Pseudo
+                <ul>
+                    <li>
+                        Pseudo class: <i>element</i>:checked, <i>element</i>:hover, ect., selects elements based on
+                        state
+                        information
+                    </li>
+                    <li>
+                        Pseudo element: ::first-line ::before, selects entities not included in html.
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </main>
+</body>
+
+</html>
